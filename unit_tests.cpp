@@ -70,8 +70,6 @@ TEST_CASE("Print string from Stack","[stack") {
     REQUIRE(tester.push(0) == true);
     REQUIRE(tester.push(4) == true);
     REQUIRE(tester.push(8) == true);
-
     string stack_string = tester.print();
-
     REQUIRE(test == stack_string);
 }
