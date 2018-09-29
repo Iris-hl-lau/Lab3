@@ -3,4 +3,4 @@ project(Lab3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab3 main.cpp stack.hpp stack.cpp)
+add_executable(Lab3 main.cpp stack.hpp stack.cpp unit_tests.cpp)
